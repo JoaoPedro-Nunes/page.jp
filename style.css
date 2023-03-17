@@ -2,11 +2,18 @@
   padding-right: 0;
 }
 /* Estilos para a navegação */
+
 #navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-left: 20px;
+}
+
+@media screen and (max-width: 600px){
+ #navbar ul{
+  display:none;
+ }
 }
 
 .navbar-brand {
