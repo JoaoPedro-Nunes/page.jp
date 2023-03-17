@@ -65,7 +65,7 @@
         <div class="container-foto">
           <img
             class="foto-perfil"
-            src="page.jp/foto perfil redondo.png"
+            src="/png/FotoPerfil.png"
             alt="Foto de João Pedro"
           />
         </div>
@@ -85,13 +85,14 @@
           <i class="fab fa-whatsapp"></i>
         </a>
       </div>
-      <div>
-        <audio  controls autoplay src="page.jp/X2Download.app - Naruto Vibes ☯ Lofi Hip Hop Mix & Japanese Type Beat (64 kbps).mp3"></audio>
+      <div class="som">
+        <audio src="/Som/minions.mp3" autoplay ></audio>
+        <audio id="som" controls src="/Som/LofiNaruto.mp3" autoplay> </audio>
         <script>
-          var audio = document.getElementById("som");
-          audio.volume = 0.08; 
-        </script>      
-          </div>
+          var audio = document.getElementById('som')
+          audio.volume = 0.05
+        </script>
+      </div>
         </section>
     <div id="Projetos"  class="album py-5 bg-light">
       <div class="container">

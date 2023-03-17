@@ -10,10 +10,10 @@
   padding-left: 20px;
 }
 
-@media screen and (max-width: 600px){
- #navbar ul{
-  display:none;
- }
+@media (max-width: 600px) {
+  #navbar ul {
+    display: none;
+  }
 }
 
 .navbar-brand {
@@ -62,12 +62,19 @@ a.nav-link:hover {
   gap: 1.6rem;
 }
 
-/* .som {
+.som {
   display: flex;
   position: relative;
   flex-direction: row-reverse;
   padding-right: 10px;
-} */
+}
+
+@media (max-width: 600px) {
+  .som {
+    display: block;
+    padding-right: 0;
+  }
+}
 
 .container-foto {
   margin-bottom: 20px;
